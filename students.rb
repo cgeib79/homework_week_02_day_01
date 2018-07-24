@@ -27,8 +27,8 @@ class Students
     return ("I can talk")
   end
 
-  def fav_language()
-    return ("I love Ruby")
+  def fav_language(fav_language)
+    return ("I love #{fav_language}")
   end
 
 end
